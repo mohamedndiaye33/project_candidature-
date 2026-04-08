@@ -1,11 +1,6 @@
-Prenom;Nom;Date_naissance;Sexe;Lieu_naissance;NIN;Adresse
-Ali;Ndiaye;1990-05-10;M;Dakar;100000;Pikine
-Fatou;Diop;1985-03-20;F;Thiäs;100001;Rufisque
-Moussa;Fall;1992-07-15;M;Kaolack;100002;Medina
-Awa;Ba;1988-11-02;F;Saint-Louis;100003;Yoff
-Ibrahima;Sarr;1980-09-09;M;Dakar;100004;Guediawaye
-Mariama;Diallo;1995-01-12;F;Thiäs;100005;Pikine
-Ousmane;Sy;1983-06-25;M;Kaolack;100006;Rufisque
-Aminata;Faye;1991-04-18;F;Ziguinchor;100007;Medina
-Cheikh;Gueye;1979-08-30;M;Dakar;100008;Yoff
-Khadija;Thiam;1987-12-05;F;Thiäs;100009;Guediawaye
+NIN;Nom
+100000;Sarr
+100001;Sarr
+100002;Diallo
+100003;Thiam
+100004;Faye
