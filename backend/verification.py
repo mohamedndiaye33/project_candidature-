@@ -13,13 +13,13 @@ def verifier_candidature(date_naissance, nationalite, nb_parrains, total_electeu
     age = calcul_age(date_naissance)
     pourcentage = (nb_parrains / total_electeurs) * 100
 
-    if age <= 35:
+    if age < 35:
         return "Rejet : âge insuffisant"
 
     if nationalite.lower() != "senegalaise":
         return "Rejet : nationalité invalide"
 
-    if pourcentage < 0.8 or pourcentage > 1:
-        return "Rejet : parrainage invalide"
+    if pourcentage < 0.8:
+        return "Rejet : parrainage insuffisant (minimum 0.8%)"
 
     return "Candidature ACCEPTÉE"

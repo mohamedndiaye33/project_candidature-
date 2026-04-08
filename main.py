@@ -17,7 +17,11 @@ pourcentage = (nb_parrains / nb_electeurs) * 100
 def calcul_age(date_naissance):
     today = datetime.today()
     naissance = datetime.strptime(date_naissance, "%Y-%m-%d")
-    return today.year - naissance.year
+    age = today.year - naissance.year
+    # Ajuster si l'anniversaire n'est pas encore passé cette année
+    if (today.month, today.day) < (naissance.month, naissance.day):
+        age -= 1
+    return age
 
 date_naissance = "1980-05-10"
 nationalite = "senegalaise"
@@ -29,7 +33,7 @@ print("Parrains :", nb_parrains)
 print("Pourcentage :", pourcentage)
 print("Age :", age)
 
-if age > 35 and nationalite.lower() == "senegalaise" and 0.8 <= pourcentage <= 1:
+if age >= 35 and nationalite.lower() == "senegalaise" and pourcentage >= 0.8:
     print("✅ ACCEPTÉE")
 else:
     print("❌ REJETÉE")
