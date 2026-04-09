@@ -1,6 +1,11 @@
-NIN;Nom
-100000;Sarr
-100001;Sarr
-100002;Diallo
-100003;Thiam
-100004;Faye
+Prenom;Nom;Date_naissance;Sexe;Lieu_naissance;NIN;Adresse;Nationalite 
+Ali;Ndiaye;1990-05-10;M;Dakar;100000;Pikine;Senegalaise
+Fatou;Diop;1985-03-20;F;Thiès;100001;Rufisque;Senegalaise
+Moussa;Fall;1992-07-15;M;Kaolack;100002;Medina;Senegalaise
+Awa;Ba;1988-11-02;F;Saint-Louis;100003;Yoff;Senegalaise
+Ibrahima;Sarr;1980-09-09;M;Dakar;100004;Guediawaye;Senegalaise
+Mariama;Diallo;1995-01-12;F;Thiès;100005;Pikine;Senegalaise
+Ousmane;Sy;1983-06-25;M;Kaolack;100006;Rufisque;Senegalaise
+Aminata;Faye;1991-04-18;F;Ziguinchor;100007;Medina;Senegalaise
+Cheikh;Gueye;1979-08-30;M;Dakar;100008;Yoff;Senegalaise
+Khadija;Thiam;1987-12-05;F;Thiès;100009;Guediawaye;Senegalaise
